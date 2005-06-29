@@ -23,6 +23,7 @@ NoSource:	3
 Source4:	Hexen.wad
 # Source4-md5:	abb033caf81e26f12a2103e1fa25453f
 NoSource:	4
+Requires:	doomsday
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
