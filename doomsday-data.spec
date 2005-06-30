@@ -5,29 +5,29 @@
 Summary:	Doom, Heretic and Hexen .wadfiles
 Name:		doomsday-data
 Version:	0.1
-Release:	0.1
+Release:	0.2
 License:	?
 Group:		Applications/Games
 Source0:	Doom.wad
-# Source0-md5:	c4fe9fd920207691a9f493668e0a2083
+# NoSource0-md5:	c4fe9fd920207691a9f493668e0a2083
 NoSource:	0
 Source1:	Plutonia.wad
-# Source1-md5:	75c8cf89566741fa9d22447604053bd7
+# NoSource1-md5:	75c8cf89566741fa9d22447604053bd7
 NoSource:	1
 Source2:	Tnt.wad
-# Source2-md5:	4e158d9953c79ccf97bd0663244cc6b6
+# NoSource2-md5:	4e158d9953c79ccf97bd0663244cc6b6
 NoSource:	2
 Source3:	Heretic.wad
-# Source3-md5:	ae779722390ec32fa37b0d361f7d82f8
+# NoSource3-md5:	ae779722390ec32fa37b0d361f7d82f8
 NoSource:	3
 Source4:	Hexen.wad
-# Source4-md5:	abb033caf81e26f12a2103e1fa25453f
+# NoSource4-md5:	abb033caf81e26f12a2103e1fa25453f
 NoSource:	4
 Requires:	doomsday
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_gamedatadir	%{_datadir}/deng
+%define		_gamedatadir	%{_datadir}/deng/Data
 
 %description
 THis package contains wad files for jDoom:
