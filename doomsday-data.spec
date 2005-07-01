@@ -3,6 +3,7 @@
 # TODO
 # - hexen2, doom2, Plutionia and Tnt could be available freely.
 Summary:	Doom, Heretic and Hexen .wadfiles
+Summary(pl):	Pliki .wad z Dooma, Heretica i Hexena
 Name:		doomsday-data
 Version:	0.1
 Release:	0.2
@@ -30,7 +31,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_gamedatadir	%{_datadir}/deng/Data
 
 %description
-THis package contains wad files for jDoom:
+This package contains wad files for jDoom:
+- Doom - Doom I
+- Plutonia
+- Tnt
+- Heretic - Heretic I
+- Hexen - Hexen I
+
+%description -l pl
+Ten pakiet zawiera pliki wad dla jDooma:
 - Doom - Doom I
 - Plutonia
 - Tnt
