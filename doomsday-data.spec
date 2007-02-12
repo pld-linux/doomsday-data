@@ -3,7 +3,7 @@
 # TODO
 # - hexen2, doom2, Plutionia and Tnt could be available freely.
 Summary:	Doom, Heretic and Hexen .wadfiles
-Summary(pl.UTF-8):   Pliki .wad z Dooma, Heretica i Hexena
+Summary(pl.UTF-8):	Pliki .wad z Dooma, Heretica i Hexena
 Name:		doomsday-data
 Version:	0.1
 Release:	0.2
